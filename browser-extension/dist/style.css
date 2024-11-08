@@ -148,6 +148,7 @@ body {
 }
 
 .container {
+  width: 300px;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -306,4 +307,10 @@ img {
   margin: 0 auto 20px;
   max-width: 100%;
   height: auto;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
